@@ -1,5 +1,7 @@
 ﻿/* Задача №1: - Создание массива с трехзначными числами. 
 Вывод количества четных чисел из массива*/
+
+Console.Clear();
 Console.WriteLine("Введите размер массива");
 int size = Convert.ToInt32(Console.ReadLine());
 int[] numbers = new int[size];
